@@ -34,7 +34,7 @@ class Register extends React.Component{
         return(
             <div>
                 {
-                    this.props.redirectTo&&this.props.redirectTo!='/register'?<Redirect to={this.props.redirectTo}></Redirect>:null
+                    this.props.redirectTo&&this.props.redirectTo!='/login'?<Redirect to={this.props.redirectTo}></Redirect>:null
                 }
                 <Logo></Logo>
                 <WingBlank>

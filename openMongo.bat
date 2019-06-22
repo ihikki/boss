@@ -1,0 +1,1 @@
+mongod -dbpath F:\mongodb-win32-x86_64-2008plus-ssl-4.0.9\data
